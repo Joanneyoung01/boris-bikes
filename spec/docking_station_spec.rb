@@ -1,9 +1,7 @@
 require 'docking_station'
 
-describe "describing docking_station object" do
+describe DockingStation do
 
-  it "first test" do
-
-  end
+ it { is_expected.to respond_to :release_bike}
 
 end
